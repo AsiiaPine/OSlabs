@@ -1,0 +1,165 @@
+    1  rosrun turtlesim turtle_teleop_key
+    2  rosrun turtlesim turtlesim_node
+    3  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    4  sudo apt install curl # if you haven't already installed curl
+    5  sudo apt update
+    6  sudo apt update --allow-unauthenticated
+    7  sudo apt update --force-bad-verify
+    8  sudo apt --allow-unauthenticated update
+    9  sudo apt-get --allow-unauthenticated update
+   10  sudo apt-get --allow-insecure-repositories
+   11  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+   12  sudo apt update --allow-unauthenticated
+   13  sudo apt install ros-melodic-desktop-full
+   14  roscore
+   15  sudo nano .bashrc
+   16  source .bashrc
+   17  roscore
+   18  mkdir -p ~/catkin_ws/src
+   19  cd ~/catkin_ws/
+   20  catkin_make
+   21  ls
+   22  cd ~
+   23  ssh-keygen
+   24  scp ~/.ssh/id_rsa.pub asiisha@192.168.1.2:/home/asiisha
+   25  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:/home/nvidia
+   26  cd ~/catkin_ws/
+   27  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:/home/nvidia
+   28  sudo apt-get install remmina
+   29  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:/home/nvidia
+   30  scp ~/.ssh/id_rsa.pub nvidia@192.168.2.2:/home/nvidia
+   31  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:/home/nvidia
+   32  scp ~/.ssh/id_rsa.pub nvidia@192.168.2.2:/home/nvidia
+   33  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:/home/nvidia
+   34  cd`
+   35  q
+   36  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:/home/nvidia
+   37  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:22/home/nvidia
+   38  scp ~/.ssh/id_rsa.pub nvidia@192.168.1.2:
+   39  ssh nvidia@192.168.1.2
+   40  ping 192.168.1.2
+   41  ssh nvidia@192.168.1.2
+   42  ssh nvidia@192.168.1.2
+   43  ssh nvidia@192.168.1.2
+   44  scp -r nvidia@192.168.1.2:~/catkin_ws ./
+   45  sudo apt update
+   46  sudo apt install telegram-desktop
+   47  ssh nvidia@192.168.1.2
+   48  ifconfig
+   49  sudo apt install net-tools
+   50  ifconfig
+   51  ping 192.168.1.2
+   52  ssh nvidia@192.168.1.2
+   53  sudo apt-get install https://code.visualstudio.com/docs/?dv=linux64_deb
+   54  sudo apt-get install code
+   55  sudo apt-get install vscode
+   56  sudo apt-get install git
+   57  sudo dpkg --configure -a
+   58  sudo apt-get install git
+   59  git clone https://github.com/sleepadelic/insnow.git
+   60  https://github.com/sleepadelic/sibadi_inno_robotics
+   61  git clone https://github.com/sleepadelic/sibadi_inno_robotics
+   62  cd sibadi_inno_robotics/
+   63  git status
+   64  cd ../arduino-1.8.15/
+   65  ls
+   66  ./install.sh 
+   67  sudo ./install.sh 
+   68  ssh nvidia@192.168.43.186
+   69  scp -R sibadi_inno_robotics/ nvidia@192.168.43.186:~/
+   70  scp -r sibadi_inno_robotics/ nvidia@192.168.43.186:~/
+   71  sudo apk aduino
+   72  sudo apk aduino ide
+   73  tar xvf arduino-latest-*.tar.xz
+   74  cd arduino-1.*
+   75  ./install.sh
+   76  sudo pacman -S arduino
+   77  q
+   78  cd
+   79  sudo pacman -S arduino
+   80  sudo apt-get install arduino
+   81  sudo cp 00-teensy.rules /etc/udev/rules.d/
+   82  sudo cp 00-teensy.rules /etc/udev/rules.d/00-teensy.rules
+   83  cd Downloads/
+   84  ls
+   85  chmod +x ./TeensyduinoInstall.linux64 
+   86  ./TeensyduinoInstall.linux64 
+   87  catkin
+   88  roscd beginner_tutorials
+   89  cd catkin
+   90  sudo apt-get install ros-noetic-catkin
+   91  sudo apt update
+   92  sudo apt update$ cd ~/catkin_ws/src/beginner_tutorials/src
+   93  cd ~/catkin_ws/src/beginner_tutorials/src
+   94  cd ~/catkin_ws/src/
+   95  beginner_tutorials
+   96  beginner_tutorials/scr
+   97  beginner_tutorials/src
+   98  cd ~beginner_tutorials/src
+   99  mkdir -p src
+  100  sudo cp /tmp/00-teensy.rules /etc/udev/rules.d
+  101  ls
+  102  cd arduino-1.8.15/
+  103  ls
+  104  cd ../Arduino/
+  105  ls
+  106  cd ../
+  107  ~
+  108  ~cd
+  109  cd ~
+  110  mkdir ~ /week1
+  111  cd~ /week1
+  112  cd ~ /week1
+  113  cd ~/week1
+  114  mkdir ~/week1
+  115  cd ~/week1
+  116  grep gcc ∼/week1/ex1.txt
+  117  echo>gedit.txt∼/week1/ex1.txt
+  118  echo>gedit.txt
+  119  rm ~/week1/gedit.txt
+  120  echo>ex1.txt
+  121  grep gcc ∼/week1/ex1.txt
+  122  ls
+  123  grep gcc ex1.txt
+  124  gedit ex1.txt
+  125  cd ~
+  126* 
+  127  ls -r | grep gcc ~week1/ex1.txt
+  128  ls -r | grep gcc ~/week1/ex1.txt
+  129  gedit ~/week1/ex1.txt
+  130  ls -r | grep gcc > ~/week1/ex1.txt
+  131  gedit ~/week1/ex1.txt
+  132  cd ~/usr/bin 
+  133  cd ~/asiisha/bin 
+  134  cd ~
+  135  cd ~/bin 
+  136  whoami
+  137  .
+  138  cd/bin
+  139  cd /bin
+  140  ls -r | grep gcc > ~/week1/ex1.txt
+  141  cd~
+  142  cd
+  143  gedit ~/week1/ex1.txt
+  144  ls -r | grep gcc ~/week1/ex1.txt
+  145  ls -r | grep gcc 
+  146  cd /bin
+  147  ls -r | grep gcc
+  148  ls -r 
+  149  ls -r | grep gcc
+  150  ls -r | grep *gcc*
+  151  ls | grep gcc
+  152  ls | grep "gcc"
+  153  cd ~
+  154  gedit & ~/week1/ex1.txt
+  155  pwd
+  156  /asiisha/bin |sort -r | grep --ignore-case "gcc" > ~/week1/ex1.txt
+  157  /usr/bin |sort -r | grep --ignore-case "gcc" > ~/week1/ex1.txt
+  158  gedit & ~/week1/ex1.txt
+  159  ls /usr/bin |sort -r | grep --ignore-case "gcc" > ~/week1/ex1.txt
+  160  gedit & ~/week1/ex1.txt
+  161* ls /usr/bin |sort -r | grep --ignore
+  162  ls /usr/bin |sort -r | grep --ignore-case "gcc"
+  163  ls /usr/bin | sort -r | grep --ignore-case "gcc" > ex1.txt
+  164  cd ~/week1
+  165  history > ex2.txt
