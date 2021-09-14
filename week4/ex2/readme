@@ -1,0 +1,21 @@
+When a proccess appears in the system, terminal uses squared form of a binary tree to represent it.
+It is easy to see that when fork() is calling in the loop, the proccess ex2.o is calling by the proccess itself and it's own child.
+
+        │         ├─gnome-terminal-─┬─bash─┬─bash───ex2.o─┬─ex2.o─┬─ex2.o─┬─ex2+
+        │         │                 │      │              │       │       ├─ex2+
+        │         │                 │      │              │       │       └─ex2+
+        │         │                 │      │              │       ├─ex2.o─┬─ex2+
+        │         │                 │      │              │       │       └─ex2+
+        │         │                 │      │              │       ├─ex2.o───ex2+
+        │         │                 │      │              │       └─ex2.o
+        │         │                 │      │              ├─ex2.o─┬─ex2.o─┬─ex2+
+        │         │                 │      │              │       │       └─ex2+
+        │         │                 │      │              │       ├─ex2.o───ex2+
+        │         │                 │      │              │       └─ex2.o
+        │         │                 │      │              ├─ex2.o─┬─ex2.o───ex2+
+        │         │                 │      │              │       └─ex2.o
+        │         │                 │      │              ├─ex2.o───ex2.o
+        │         │                 │      │              └─ex2.o
+        │         │                 │      ├─5*[ex2───ex2]
+        │         │                 │      └─pstree
+
