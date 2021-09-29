@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1802	    616	      8	   2426	    97a	/home/asiisha/week4/ex1/ex1.o
