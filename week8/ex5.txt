@@ -1,0 +1,1 @@
+A physical address represents place in RAM and a virtual address represents plane in a virtual address space which is created by OS for each process. Virtual address is mapped either to RAM or SWAP.
