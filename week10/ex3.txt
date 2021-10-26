@@ -1,0 +1,25 @@
+~/asiia/week10 ─────────────────────────────────────────────────────────────────────────
+❯ chmod 0 _ex3.txt                            
+
+~/asiia/week10 ─────────────────────────────────────────────────────────────────────────
+❯ ls -l _ex3.txt  
+---------- 1 asiia asiia 6 Oct 24 22:34 _ex3.txt
+❯ chmod 707 _ex3.txt
+
+~/asiia/week10 ─────────────────────────────────────────────────────────────────────────
+❯ ls -l _ex3.txt    
+-rwx---rwx 1 asiia asiia 6 Oct 24 22:34 _ex3.txt
+
+~/asiia/week10 ────────────────────────────────────────────────────────────────────── 9s
+❯ chmod a=u _ex3.txt
+
+~/asiia/week10 ─────────────────────────────────────────────────────────────────────────
+❯ ls -l _ex3.txt    
+-rwxrwxrwx 1 asiia asiia 6 Oct 24 22:34 _ex3.txt
+
+What does 660 mean for ex3.txt?
+660 means that we give for user and the group the read and write permission for ex3.txt (without execution), and no permission to others.
+What does 775 mean for ex3.txt?
+775 - full (read, write and execute) permission to user and group, but only read and execute permission to others.
+What does 777 mean for ex3.txt?
+777- full (read, write and execute) permission to all owners (user, group and others).
