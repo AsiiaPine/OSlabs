@@ -25,6 +25,6 @@ sudo cp /usr/lib64/ld-linux-x86-64.so.2 /lofsdisk/usr/lib64
 sudo cp /lofsdisk/usr/lib/* /lofsdisk/lib/
 sudo cp /lofsdisk/usr/lib64/* /lofsdisk/lib64/
 
-sudo chroot /lofsdisk /bin/bash -c "/ex2.o > ex2.txt"
+sudo chroot /lofsdisk /ex2.out > ex2.txt
 echo 'Local FS output:' >> ex2.txt
-./ex2.o >> ex2.txt
+./ex2.out >> ex2.txt
